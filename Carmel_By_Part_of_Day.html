@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carmel by Part of Day</title>
+<style>
+  :root{--navy:#1F3A5F;--teal:#2E7D8A;--sand:#F0EBE1;--light:#EAF1F4;--grey:#555;--link:#1A5276;}
+  *{box-sizing:border-box;}
+  body{margin:0;background:#f6f4ef;color:#222;line-height:1.5;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;-webkit-text-size-adjust:100%;}
+  .wrap{max-width:780px;margin:0 auto;padding:20px 16px 60px;}
+  header.hero{text-align:center;padding:28px 12px 6px;}
+  header.hero h1{color:var(--navy);font-size:38px;margin:0 0 8px;line-height:1.1;}
+  header.hero .sub{color:var(--grey);font-size:15.5px;}
+  header.hero .tags{color:var(--teal);font-style:italic;font-size:14px;margin-top:8px;}
+  .intro{font-size:15.5px;margin:18px 2px 26px;}
+  section.sec{margin-bottom:30px;}
+  .sechead{background:var(--teal);color:#fff;border-radius:9px;padding:11px 16px;margin-bottom:14px;}
+  .sechead .lbl{font-weight:800;font-size:21px;letter-spacing:.5px;}
+  .sechead .subtitle{font-style:italic;color:#e6f0f2;font-size:14.5px;margin-left:10px;}
+  .item{display:flex;background:#fff;border-radius:10px;overflow:hidden;margin-bottom:11px;
+    box-shadow:0 1px 4px rgba(0,0,0,.07);}
+  .item.top .body{background:var(--sand);}
+  .rank{flex:0 0 50px;background:var(--navy);color:#fff;font-weight:800;font-size:24px;
+    display:flex;align-items:center;justify-content:center;}
+  .body{padding:12px 16px;}
+  a.place{font-weight:700;font-size:17.5px;color:var(--link);text-decoration:underline;text-underline-offset:2px;}
+  a.place:active{opacity:.7;}
+  .blurb{margin:5px 0 0;color:var(--grey);font-size:14.5px;}
+  .howto{background:var(--light);border-radius:10px;padding:16px 18px;margin-top:10px;}
+  .howto h3{color:var(--navy);margin:0 0 8px;font-size:17px;}
+  .howto p{margin:0;color:var(--grey);font-size:14px;}
+  footer{text-align:center;color:#999;font-size:12.5px;margin-top:36px;}
+  @media (max-width:520px){
+    header.hero h1{font-size:30px;}
+    .sechead .subtitle{display:block;margin-left:0;margin-top:3px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <h1>Carmel by Part of Day</h1>
+    <div class="sub">Top picks ranked by overall appeal &middot; everything within an hour of Carmel-by-the-Sea</div>
+    <div class="tags">Good food &middot; Sightseeing &middot; Nature &amp; hiking &middot; Shopping</div>
+  </header>
+
+  <p class="intro">Each section lists the five best options for that part of the day, ranked #1 to #5 for someone who enjoys all four of: great food, sightseeing, nature and hiking, and shopping. Mix and match across sections to build any day you like. Tap any place name for hours, photos, and directions.</p>
+
+  <section class="sec">
+    <div class="sechead"><span class="lbl">MORNING</span><span class="subtitle">Start the day — nature, walks, and the marquee sights</span></div>
+    <div class="item top">
+      <div class="rank">1</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Point%20Lobos%20State%20Natural%20Reserve%2C%20Carmel%20CA" target="_blank" rel="noopener">Point Lobos State Natural Reserve</a>
+        <p class="blurb">The single best thing in the area, and a perfect morning: turquoise coves, sea otters, sea lions, often whales, on easy-to-moderate loop trails (Cypress Grove, Sea Lion Point). Arrive 8–9am before the gate fills. Hits nature, hiking, and sightseeing all at once.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">2</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Monterey%20Bay%20Aquarium%2C%20Monterey%20CA" target="_blank" rel="noopener">Monterey Bay Aquarium</a>
+        <p class="blurb">World-class and worth a slow 3–4 hours. The kelp forest, jellies, and otter feedings are the highlights. Book timed tickets online. ~20 min from Carmel.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">3</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Garrapata%20State%20Park%2C%20Carmel%20CA" target="_blank" rel="noopener">Garrapata State Park</a>
+        <p class="blurb">Coastal bluff trails, wildflowers, otters offshore, and the climb up Whale Peak — quieter than Point Lobos and free. ~15 min south on Hwy 1. Great for a more active morning.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">4</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=17-Mile%20Drive%2C%20Pebble%20Beach%20CA" target="_blank" rel="noopener">17-Mile Drive &amp; Pebble Beach</a>
+        <p class="blurb">The famed scenic loop through Del Monte Forest — Lone Cypress, Bird Rock, Spanish Bay. Stop often; walk the Spanish Bay dune boardwalk. Sightseeing-forward, with short walks. ($ per-car gate fee.)</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">5</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Carmel%20Beach%2C%20Carmel-by-the-Sea%20CA" target="_blank" rel="noopener">Carmel Beach + village walk</a>
+        <p class="blurb">A gorgeous white-sand beach and bluff path right in town, paired with a wander through Carmel’s storybook courtyards and galleries. The easy, do-anytime morning that blends walking and browsing.</p>
+      </div>
+    </div>
+  </section><section class="sec">
+    <div class="sechead"><span class="lbl">LUNCH</span><span class="subtitle">Midday tables — from casual to view-worthy</span></div>
+    <div class="item top">
+      <div class="rank">1</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=From%20Scratch%20Restaurant%2C%20The%20Barnyard%20Carmel%20CA" target="_blank" rel="noopener">From Scratch (The Barnyard)</a>
+        <p class="blurb">Guy Fieri-featured brunch/lunch — huevos rancheros, crab cake Benedict — set in the garden-style Barnyard shopping center, so you can eat and browse in one stop. Food + shopping combined.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">2</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=The%20Bench%20Restaurant%2C%20Pebble%20Beach%20Lodge%20CA" target="_blank" rel="noopener">The Bench, Pebble Beach</a>
+        <p class="blurb">Wood-fired, open-kitchen menu overlooking the 18th green and Stillwater Cove. A knockout view and an easy pairing with 17-Mile Drive. Reserve.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">3</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Schooners%20Monterey%2C%20Cannery%20Row%20CA" target="_blank" rel="noopener">Schooners on Cannery Row</a>
+        <p class="blurb">Bayfront patio with oysters and fish &amp; chips right on the water — the natural midday stop around the aquarium and Cannery Row shopping.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">4</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Carmel%20Belle%2C%20Carmel-by-the-Sea%20CA" target="_blank" rel="noopener">Carmel Belle</a>
+        <p class="blurb">Counter-service cafe in a courtyard off Ocean Ave — fresh sandwiches, salads, good coffee. The reliable in-town light lunch between walks and shopping.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">5</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Treehouse%20Cafe%2C%20Carmel-by-the-Sea%20CA" target="_blank" rel="noopener">Treehouse Cafe</a>
+        <p class="blurb">Relaxed Mediterranean with a great dog-friendly patio in the village. Falafel and sea bass are standouts. Easy and central.</p>
+      </div>
+    </div>
+  </section><section class="sec">
+    <div class="sechead"><span class="lbl">AFTERNOON</span><span class="subtitle">Active outings, shopping, and culture</span></div>
+    <div class="item top">
+      <div class="rank">1</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Monterey%20Bay%20Kayaks%2C%20Monterey%20CA" target="_blank" rel="noopener">Sea-otter kayak tour, Monterey Bay</a>
+        <p class="blurb">Paddle the kelp beds among otters, seals, and sea lions — beginner-friendly, ~2 hrs, guided. The best active-plus-nature afternoon in the area. ~20 min from Carmel.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">2</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Ocean%20Avenue%2C%20Carmel-by-the-Sea%20CA" target="_blank" rel="noopener">Carmel village shopping &amp; galleries</a>
+        <p class="blurb">One of the densest gallery-and-boutique towns in the U.S., built for browsing through hidden courtyards. The core shopping experience, walkable end to end.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">3</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Adventures%20by%20the%20Sea%2C%20Cannery%20Row%20Monterey%20CA" target="_blank" rel="noopener">E-bike the Monterey Coastal Trail</a>
+        <p class="blurb">Rent on Cannery Row and ride the flat, scenic waterfront path to Lovers Point and Pacific Grove. Active, easy, and very fun — great for all fitness levels.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">4</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Asilomar%20State%20Beach%2C%20Pacific%20Grove%20CA" target="_blank" rel="noopener">Pacific Grove shoreline &amp; Asilomar</a>
+        <p class="blurb">Victorian seaside town with a dune boardwalk, tide pools, and turquoise coves at Lovers Point and Asilomar. Beautiful, low-effort walking. ~20 min.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">5</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=The%20Barnyard%20Shopping%20Village%2C%20Carmel%20CA" target="_blank" rel="noopener">The Barnyard &amp; Crossroads shopping</a>
+        <p class="blurb">Garden-set shopping centers just east of town — bookstore, boutiques, and tasting rooms, with practical shops at the adjacent Crossroads. Easy afternoon browsing.</p>
+      </div>
+    </div>
+  </section><section class="sec">
+    <div class="sechead"><span class="lbl">DINNER</span><span class="subtitle">The best tables, ranked</span></div>
+    <div class="item top">
+      <div class="rank">1</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Aubergine%2C%20L'Auberge%20Carmel%20CA" target="_blank" rel="noopener">Aubergine at L’Auberge Carmel</a>
+        <p class="blurb">The area’s special-occasion tasting menu — two-Michelin-star, French-Japanese-influenced. The marquee meal of the region. Book far ahead. (Open Wed–Sun.)</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">2</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Chez%20Noir%2C%20Carmel-by-the-Sea%20CA" target="_blank" rel="noopener">Chez Noir</a>
+        <p class="blurb">Michelin-starred, intimate, seafood-forward New American on 5th — one of Carmel’s very best tables. Reserve well ahead. (Closed Tue–Wed.)</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">3</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Mission%20Ranch%20Restaurant%2C%20Carmel%20CA" target="_blank" rel="noopener">Mission Ranch</a>
+        <p class="blurb">Clint Eastwood’s historic ranch — sheep pastures, ocean views, a piano bar, and classic American fare. The iconic sunset experience. Open daily; reserve.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">4</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Casanova%20Restaurant%2C%20Carmel-by-the-Sea%20CA" target="_blank" rel="noopener">Casanova</a>
+        <p class="blurb">Romantic French-Italian in a vine-covered cottage with a famous wine list and the historic van Gogh table. Open Monday, when several top spots are dark. Reserve.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">5</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Pacific's%20Edge%2C%20Hyatt%20Carmel%20Highlands%20CA" target="_blank" rel="noopener">Pacific’s Edge, Carmel Highlands</a>
+        <p class="blurb">Clifftop dining with a spectacular sunset over the Pacific just south of town. Request a window table. (Open Wed–Sun.)</p>
+      </div>
+    </div>
+  </section><section class="sec">
+    <div class="sechead"><span class="lbl">AFTER DINNER</span><span class="subtitle">Easy evening options</span></div>
+    <div class="item top">
+      <div class="rank">1</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Carmel%20Beach%2C%20Carmel-by-the-Sea%20CA" target="_blank" rel="noopener">Sunset on Carmel Beach</a>
+        <p class="blurb">The local evening ritual — a bluff-and-sand stroll as the sun drops. Pair it with dinner in the village for the quintessential Carmel night.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">2</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Mission%20Ranch%20Restaurant%2C%20Carmel%20CA" target="_blank" rel="noopener">Mission Ranch piano bar</a>
+        <p class="blurb">After dinner (or instead of it), the lively piano bar with sing-alongs and pasture views is a only-in-Carmel experience.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">3</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Ocean%20Avenue%2C%20Carmel-by-the-Sea%20CA" target="_blank" rel="noopener">Evening gallery stroll, Carmel</a>
+        <p class="blurb">Many village galleries stay open into the evening, and the lamplit courtyards are lovely to wander after a meal. Walkable and free.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">4</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=Cannery%20Row%2C%20Monterey%20CA" target="_blank" rel="noopener">Cannery Row &amp; the wharf at night</a>
+        <p class="blurb">Lit-up waterfront, dessert spots, and the bay after dark — an easy post-dinner walk if you’re already in Monterey. ~20 min.</p>
+      </div>
+    </div><div class="item">
+      <div class="rank">5</div>
+      <div class="body">
+        <a class="place" href="https://www.google.com/maps/search/?api=1&query=The%20Inn%20at%20Spanish%20Bay%2C%20Pebble%20Beach%20CA" target="_blank" rel="noopener">Spanish Bay fire pits &amp; bagpiper</a>
+        <p class="blurb">Drinks by the outdoor fire pits as the resort’s bagpiper plays at dusk — a memorable, low-key evening along 17-Mile Drive.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="howto">
+    <h3>How the ranking works</h3>
+    <p>Rankings favor options that deliver on more than one interest at once &mdash; so Point Lobos (nature + sightseeing + walking) and From Scratch (food + shopping) rank high. A few day-of-week closures are noted for the top dinners; always confirm hours and reserve ahead. Big Sur and the deep interior sit beyond the one-hour radius and are intentionally left out here.</p>
+  </div>
+
+  <footer>A personal travel guide &middot; confirm hours and reservations before you go.</footer>
+</div>
+</body>
+</html>
